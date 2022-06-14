@@ -2,7 +2,7 @@
   "name": "03_aut_est_entrega",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "nodemon ./backend/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
