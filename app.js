@@ -6,7 +6,7 @@ import cors from 'cors';
 import { createTableContato } from './Controller/contato.js';
 
 const app = express();
-const port = 3000;
+const PORT = process.env.PORT || 3000;
 
 app.use(express.static("./frontend/"));
 app.use(express.json());
@@ -21,6 +21,6 @@ createTable();
 createTableContato();
 
 
-app.listen(port, () => {
+app.listen(`${PORT}`, () => {
     console.log("API rodando");
 });
