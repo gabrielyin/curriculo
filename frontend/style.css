@@ -1,0 +1,26 @@
+/* :root {
+    --lightBeige: #F0ECE3;
+    --beige: #DFD3C3;
+    --darkBeige: #C7B198;
+    --grey: #596E79;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: var(--lightBeige);
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+} */
+
+#caixaSome {
+    display: none;
+}
