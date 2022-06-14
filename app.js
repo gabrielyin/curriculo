@@ -9,12 +9,13 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use(express.static("./frontend/"));
+app.use(express.static("./"))
 app.use(express.json());
 app.use(cors());
 app.get('/', (req, res) => {
     res.sendFile('index.html')
 })
-// app.use(router);
+app.use(router);
 
 openDb();
 createTable();

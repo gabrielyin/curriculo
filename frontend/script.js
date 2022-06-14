@@ -10,7 +10,7 @@ function openMenu() {
 }
 
 function dadosGet() {
-    var url = "http://localhost:3000/dados";
+    var url = "https://curriculogabrielyin.herokuapp.com/dados";
 
     // var xhttp = new XMLHttpRequest();
     // xhttp.open("GET", url, false);
@@ -43,7 +43,7 @@ function enviar() {
     let email = document.getElementById('email').value
     let telefone = document.getElementById('telefone').value
     
-    fetch('http://localhost:3000/contato', {
+    fetch('https://curriculogabrielyin.herokuapp.com/contato', {
         method: 'POST',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({
